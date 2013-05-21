@@ -1,7 +1,6 @@
 ﻿
 ds.Company.remove();
 ds.Person.remove();
-ds.State.remove();
 
 var folder = ds.getModelFolder();
 
@@ -10,31 +9,7 @@ if (folder != null)
 	var thePath = folder.path;
 	var baseFolder = thePath + 'ImportData/';
 	
-	
-	var file = File(baseFolder + 'States.txt');
-	if (ds.State.length == 0) 
-	{
-		var input = TextStream(file,'read');
-		if (!input.end())
-		{
-			var record = input.read('\r');
-			if (record = 'USPS') //verify that the file is in the right format
-			{
-				while (!input.end())
-				{
-					record = input.read("\r") //read one row
-					if (record != "")
-					{
-						var newState = new ds.State();
-						newState.usps = record;
-						newState.save();					
-					}
-				}
-			}
-		}
-	}
-	
-	
+	//C O M P A N Y
 	var file = File(baseFolder + 'CompanyNames.txt');
 	
 	if (ds.Company.length == 0)
