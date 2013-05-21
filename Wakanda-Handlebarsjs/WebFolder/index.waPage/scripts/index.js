@@ -9,12 +9,20 @@ var personUL$ = $('#personUL'), //Get jQuery reference to our <ul> for listing t
 	personDetailTemplateSource = $("#person-list-template").html(),
 	personDetailTemplateFn = Handlebars.compile(personDetailTemplateSource),
 	personData = "";
+
+function updatePersonDetail(name, city, phone) {
+	personObj.name = name;
+	personObj.city = city;
+	personObj.phone = phone;
+	waf.sources.personObj.sync();
+}
 		
 function buildPersonGrid() {
 	personUL$.children().remove(); 
 	
 	ds.Person.all({
 		onSuccess: function(ev1) {
+			var updateDetail = true;
 			ev1.entityCollection.forEach({
 				onSuccess: function(ev2) {	
 					personData = 	{
@@ -24,6 +32,12 @@ function buildPersonGrid() {
 						dataId: 	ev2.entity.ID.getValue()
 					};
 					personUL$.append(personDetailTemplateFn(personData));
+					
+					if (updateDetail) {
+						updateDetail = false;
+						updatePersonDetail(ev2.entity.fullName.getValue(), ev2.entity.city.getValue(), ev2.entity.phone.getValue());
+	   					personUL$.children(':first-child').addClass('personPermSelected');
+					}
 				}
 			}); //ev1.entityCollection.forEach
 		}
@@ -48,12 +62,10 @@ function buildPersonGrid() {
 	   		this$.addClass('personPermSelected');
 	   		this$.siblings().removeClass('personPermSelected');
 	   		
-	   		/**/
 	   		var personId = this$.children('div.personIdent').attr('data-id');
 	   		ds.Person.find("ID = :1", personId, {
 	   			onSuccess: function(event) {
-	   				personObj.name = event.entity.fullName.getValue();
-	   				waf.sources.personObj.sync();
+	   				updatePersonDetail(event.entity.fullName.getValue(), event.entity.city.getValue(), event.entity.phone.getValue());
 	   			}
 	   		});
 	   		

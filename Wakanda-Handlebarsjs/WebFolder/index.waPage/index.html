@@ -7,7 +7,7 @@
 <meta name="wakanda-version" content="4 build 4.132351"/>
 <meta name="wakanda-build" content="4.132351"/>
 <meta name="WAF.config.loadCSS" id="waf-palette" content="/walib/WAF/widget/palette/css/widget-palette-default.css"/>
-		<meta data-type="dataSource" data-lib="WAF" data-source-type="object" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="personObj" data-source="personObj" data-attributes="name:string,phone:string,city:string" content="personObj"/>
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="object" data-source="personObj" data-lib="WAF" data-id="personObj" data-dataType="string" data-autoLoad="true" data-attributes="name:string,phone:string,city:string" content="personObj"/>
 <meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
 <meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
 <meta name="WAF.config.loadCSS" content="/index.waPage/styles/custom.css"/>
@@ -37,18 +37,22 @@
 			<ul id="personUL" class="browsePerson"></ul>
 		</div>
  	 	<div id="detailContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited  waf-container-level-2 waf-level-2 ">
-	 	 	 	<div id="personDetailContainer" data-type="container" data-lib="WAF" class="waf-widget waf-container default inherited   waf-container-level-3 waf-level-3" data-label-position="top" data-constraint-left="true" data-label="" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false">
-	 	 	 	 	<div id="personDetailHeaderContainer" data-type="container" data-lib="WAF" class="waf-widget waf-container default inherited  waf-container-level-4 waf-level-4 " data-label-position="top" data-constraint-left="true" data-label="" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false">
-	 	 	 	 	 	<div id="nameRichText" data-type="richText" data-lib="WAF" class="waf-widget waf-richText default inherited  " data-autoWidth="false" data-label-position="left" data-target="_blank" data-overflow="Hidden" data-plainText="true" data-constraint-left="true" data-label="" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-binding="personObj.name"></div>
+	 	 	 	<div id="personDetailContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container default inherited   waf-container-level-3 waf-level-3">
+	 	 	 	 	<div id="personDetailHeaderContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container default inherited  waf-container-level-4 waf-level-4 ">
+	 	 	 	 	 	<div id="nameRichText" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="personObj.name" data-autoWidth="false" class="waf-widget waf-richText default inherited  "></div>
  	 	 	 	 	</div>
- 	 	 	 		<div id="personDetailFooterContainer" data-type="container" data-lib="WAF" class="waf-widget waf-container default inherited  waf-container-level-4 waf-level-4 " data-label-position="top" data-constraint-left="true" data-label="" data-constraint-top="false" data-constraint-bottom="true" data-constraint-right="false"></div>
- 	 	 	 		<div id="personDetailBodyContainer" data-type="container" data-lib="WAF" class="waf-widget waf-container default inherited  waf-container-level-4 waf-level-4 " data-label-position="top" data-constraint-left="true" data-label="" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false"></div>
+ 	 	 	 		<div id="personDetailFooterContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="false" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited  waf-container-level-4 waf-level-4 "></div>
+ 	 	 	 		<div id="personDetailBodyContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container default inherited  waf-container-level-4 waf-level-4 ">
+	 	 	 	 	 	<div id="cityRichText" data-type="richText" data-lib="WAF" class="waf-widget waf-richText default inherited  " data-autoWidth="false" data-label-position="left" data-target="_blank" data-overflow="Hidden" data-plainText="true" data-constraint-left="true" data-label="" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-binding="personObj.city"></div>
+ 	 	 	 	 		<div id="phoneRichText" data-type="richText" data-lib="WAF" data-binding="personObj.phone" class="waf-widget waf-richText default inherited  " data-autoWidth="false" data-label-position="left" data-target="_blank" data-overflow="Hidden" data-plainText="true" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-label=""></div>
+ 	 	 	 	 	</div>
  	 	 	 	
  	 	 	 	</div>
  	 	 	</div>
  	</div>
  	</div>
 		
+	
 		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
 	</body>
 </html>
