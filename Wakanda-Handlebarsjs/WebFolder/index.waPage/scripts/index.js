@@ -48,16 +48,15 @@ function buildPersonGrid() {
 	   		this$.addClass('personPermSelected');
 	   		this$.siblings().removeClass('personPermSelected');
 	   		
-	   		/*
-	   		var contactId = this$.children('div.contactIdent').attr('data-id');
-	   		ds.Contact.find("ID = :1", contactId, {
+	   		/**/
+	   		var personId = this$.children('div.personIdent').attr('data-id');
+	   		ds.Person.find("ID = :1", personId, {
 	   			onSuccess: function(event) {
-	   				$comp.sourcesVar.contactObject.lastName = event.entity.lastName.getValue();
-	   				$comp.sourcesVar.contactObject.firstName = event.entity.firstName.getValue();
-	   				$comp.sources.contactObject.sync();
+	   				personObj.name = event.entity.fullName.getValue();
+	   				waf.sources.personObj.sync();
 	   			}
 	   		});
-	   		*/
+	   		
 		});
 		
 		buildPersonGrid();
