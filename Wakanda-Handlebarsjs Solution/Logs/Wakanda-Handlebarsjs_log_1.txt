@@ -1,0 +1,42 @@
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Opening the solution
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Opening the users and groups directory
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Users and groups directory opened (duration: 75 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Opening the project
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Opening the database
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Database opened (duration: 6 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Project opened (duration: 19 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Opening the project
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Project opened (duration: 18 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Solution opened (duration: 139 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Starting the solution
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Starting the project
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Starting the HTTP server
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - HTTP server started (duration: 32 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Project started (duration: 78 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Starting the project
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Starting the HTTP server
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - HTTP server started (duration: 35 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Project started (duration: 86 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Executing the bootstrap(s)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Bootstrap(s) executed (duration: 6 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Bootstrap(s) executed (duration: 8 ms)
+2013-05-21 11:13:39 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Solution started (duration: 181 ms)
+2013-05-21 11:16:16 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Closing the database
+2013-05-21 11:16:16 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Database closed (duration: 304 ms)
+2013-05-21 11:16:16 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Opening the database
+2013-05-21 11:16:16 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Database opened (duration: 8 ms)
+2013-05-21 11:16:30 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Stopping the solution
+2013-05-21 11:16:30 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Stopping the project
+2013-05-21 11:16:32 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Project stopped (duration: 2064 ms)
+2013-05-21 11:16:32 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Stopping the project
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Project stopped (duration: 2068 ms)
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Solution stopped (duration: 4134 ms)
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Closing the solution
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Closing the project
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Closing the database
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Database closed (duration: 406 ms)
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs.Wakanda-Handlebarsjs] INFO - Project closed (duration: 406 ms)
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Closing the project
+2013-05-21 11:16:34 [com.wakanda-software.Wakanda-Handlebarsjs.ServerAdmin] INFO - Project closed (duration: 2 ms)
+2013-05-21 11:16:35 [com.wakanda-software.Wakanda-Handlebarsjs] INFO - Solution closed (duration: 815 ms)
